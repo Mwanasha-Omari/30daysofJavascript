@@ -103,17 +103,17 @@ grading()
 // December, January or February, the season is Winter.
 // March, April or May, the season is Spring
 // June, July or August, the season is Summer
-function month(){
+let month =september
 
 const season =(month)=>{
-if(september||october||November){
+if(month==september){
 console.log('Autumn')
 
 }
-else if(December||January||Februery){
+else if(month==Februery){
     console.log('Winter')
 }
-else if(March||April||May)
+else if(month==May)
 {
     console.log('Spring')
 }
@@ -123,25 +123,34 @@ else{
 
 
 }
+
+season();
+
+
+
+
+
+
+// Check if a day is weekend day or a working day. Your script will take day as an input.
+
+const greeting=(dayOfTheWeek)=>{
+    switch (dayOfTheWeek) {
+      case"Sunday":
+console.log("Today is aweekend");
+    break;
+
+  case"Tuesday":
+
+    console.log("Today is a working day");
+    break;
+case"Wednesday":
+console.log("Today is a working day");
+break;
+    case"Saturday":
+    console.log("Hello Saturday");
+    break;
+    default:
+        console.log('Invalid day of the week')
+}
 };
-month()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
- 
+greeting('Wednesday')
