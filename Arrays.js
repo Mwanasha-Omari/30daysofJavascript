@@ -41,3 +41,45 @@ console.log(itCompanies[2])
 console.log(itCompanies[3])
 console.log(itCompanies[5])
 console.log(itCompanies[6])
+
+
+
+// Sort the array using sort() method
+console.log( itCompanies.sort());
+
+
+// Reverse the array using reverse() method
+
+console.log( itCompanies.reverse());
+
+
+
+// Slice out the first 3 companies from the array
+
+console.log( itCompanies.slice(0,4));
+
+
+// Slice out the last 3 companies from the array
+console.log( itCompanies.slice(4,6));
+
+
+// Slice out the middle IT company or companies from the array
+
+console.log( itCompanies.slice(4,5));
+
+
+// Remove the first IT company from the array
+console.log( itCompanies.slice(0));
+
+
+// Remove the middle IT company or companies from the array
+console.log( itCompanies.slice(4));
+
+
+
+// Remove the last IT company from the array
+console.log( itCompanies.slice(0,6));
+
+
+// Remove all IT companies
+console.log( itCompanies.slice(7));
