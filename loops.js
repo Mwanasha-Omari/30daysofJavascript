@@ -2,13 +2,26 @@
 
 for(let i=0;i<=10;i++){
     console.log(i)
+}
 
+const i=1;
+const myNumber=(i)=>{
+while(i<10){
+    console.log(i+=1);
+     break;
+}
+}
+ myNumber(i)  
+
+ const isNumber=(i)=>{
+    do{console.log(i<10);
     
 }
 
+while(i)
+ }
 
-
-
+isNumber(i)
 
 
 // Iterate 10 to 0 using for loop, do the same using while and do while loop
@@ -19,7 +32,7 @@ for(let i=10;i>=0;i++){
 
 
 // Iterate 0 to n using for loop
-for(let i=1; i <= NaN; i++){
+for(let i=1; i <= N; i++){
     console.log(i)
 
 
