@@ -70,7 +70,62 @@ console.log({console:speed});
 
 isSpeed(500,100)
 
+// Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
+function isWeight(mass,gravity){
+let weight=mass*gravity
+console.log({console:weight})
 
+}
+isWeight(50,20)
+
+// Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which convert oC to oF convertCelsiusToFahrenheit.
+// function convertCelsiusToFahrenheit(){
+// const convertTemperature=
+
+// }
+// Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
+// The same groups apply to both men and women.
+// Underweight: BMI is less than 18.5
+// Normal weight: BMI is 18.5 to 24.9
+// Overweight: BMI is 25 to 29.9
+// Obese: BMI is 30 or more
+function calculateBMI(weight,height){
+const bmi=weight/(height*height)
+if (weight<18) {
+  console.log("underweigt")
+}
+ else if(weight==18.5||weight<=24.9) {
+  console.log("Normal weight")
+} 
+else if(weight=>25||weight<=29.9){
+console.log("Overweight")
+}
+else{
+console.log("Obese")
+
+}
+}
+
+// Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
+function checkSeason(month1,month2,month3){
+const season=(month1||month2||month3)
+console.log({console:season});
+return{return:season}
+}
+
+checkSeason("Autumn")
+
+
+// Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
+  
+ let today=new Date();
+ const date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
+ const time =today.getHours()+ ":" +today.getMinutes(); 
+ const dateTime = date+' '+time;
+ console.log(dateTime)
+
+// showDateTime()
+// 08/01/2020 04:08
 
 
 
