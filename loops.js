@@ -30,6 +30,23 @@ for(let i=10;i>=0;i++){
     break;
 }
 
+const j=1;
+const findNumber=(j)=>{
+while(j<10){
+    console.log(j+=1);
+     break;
+}
+}
+ findNumber(j)  
+
+ const number=(j)=>{
+    do{console.log(j<10);
+    
+}
+
+while(j)
+ }
+
 
 // Iterate 0 to n using for loop
 for(let i=1; i <= N; i++){

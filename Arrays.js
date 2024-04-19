@@ -35,14 +35,10 @@ console.log(itCompanies[6])
 
 
 // Print out each company
-console.log(itCompanies[0])
-console.log(itCompanies[1])
-console.log(itCompanies[2])
-console.log(itCompanies[3])
-console.log(itCompanies[5])
-console.log(itCompanies[6])
 
-
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
 
 // Sort the array using sort() method
 console.log( itCompanies.sort());
@@ -62,11 +58,9 @@ console.log( itCompanies.slice(0,4));
 // Slice out the last 3 companies from the array
 console.log( itCompanies.slice(4,6));
 
-
 // Slice out the middle IT company or companies from the array
 
 console.log( itCompanies.slice(4,5));
-
 
 // Remove the first IT company from the array
 console.log( itCompanies.slice(0));
@@ -75,11 +69,8 @@ console.log( itCompanies.slice(0));
 // Remove the middle IT company or companies from the array
 console.log( itCompanies.slice(4));
 
-
-
 // Remove the last IT company from the array
 console.log( itCompanies.slice(0,6));
-
 
 // Remove all IT companies
 console.log( itCompanies.slice(7));
