@@ -78,20 +78,30 @@ const users = {
       age: 20,
       isLoggedIn: false,
       points: 40,
+
      
       }
-    }
+
+    };
   
 
 // Find the person who has many skills in the users object.
- 
+const find=Object.keys(users>=(8));
+console.log({find});
+
 // Count logged in users, count users having greater than equal to 50 points from the following object.
-
-
+let count=0;
+for(let values in users){
+  if(users.hasOwnProperty(values)){
+    count++
+  }
+}
+console.log("Number of values" + count);
 //   Find people who are MERN stack developer from the users object
 
 // Set your name in the users object without modifying the original users object
-
+users.name='Mwanasha';
+console.log({users})
 // Get all keys or properties of users object
 const keys=Object.keys(users);
 console.log({keys});
