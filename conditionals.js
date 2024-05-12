@@ -103,21 +103,22 @@ grading()
 // December, January or February, the season is Winter.
 // March, April or May, the season is Spring
 // June, July or August, the season is Summer
-let month ="February"
+let month ="December"
 
 const season =(month)=>{
-if(month=="september"){
+if(month=="september"||"October"||"November"){
 console.log('Autumn')
 
 }
-else if(month=="February"){
+else if(month=="February"||"January"||"December"){
     console.log('Winter')
 }
-else if(month=="May")
+else if(month=="May"||"April"||"March")
 {
     console.log('Spring')
 }
-else{
+else(month=="June"||"July"||"August")
+{
     console.log('Summer')
 }
 
